@@ -42,9 +42,11 @@ https://www.us-cert.gov/ncas/current-activity/2017/06/27/Multiple-Petya-Ransomwa
 ### General Vendor Bulletins (WannaCry/Petya/NotPetya/MS17-010)
 :lock: [Wonderware](https://gcsresource.schneider-electric.com/support/securitycentral/bulletins/WW17_010_Updated_21June2017.html) - Actual Bulletin
 
-[Rockwell Automation](http://www.rumsey.com/blog/rockwell-automation-recommended-mitigations-%E2%80%9Cwannacry%E2%80%9D-ransomware) - Summary of Bulletin
+[Rockwell Automation](http://www.rumsey.com/blog/rockwell-automation-recommended-mitigations-%E2%80%9Cwannacry%E2%80%9D-ransomware) - Summary of Bulletin for WannaCry
 
-:lock: [Rockwell Automation](https://rockwellautomation.custhelp.com/app/answers/detail/a_id/1047348) - Actual Bulletin
+:lock: [Rockwell Automation](https://rockwellautomation.custhelp.com/app/answers/detail/a_id/1052876) - Actual Bulletin
+
+[Rockwell Automation](http://www.rakb-patchtests.com/data/MS_Patch_Qualification/qualifications.htm) - Patch Support Matrix
 
 
 Also reference list of vendor resources in [ICS-Cert](https://ics-cert.us-cert.gov/alerts/ICS-ALERT-17-135-01I) advisory
