@@ -14,6 +14,8 @@ This is an attempt to collect scripts and quick go-bys for asset owners and inci
 
 ### All things MS17-010
 
+[MS17-010: Security update for Windows SMB Server: March 14, 2017](https://technet.microsoft.com/en-us/library/security/ms17-010.aspx) - Microsoft Bulletin for MS17-010
+
 [Patches That Fix the Vulnerability For MS17-010](https://blogs.technet.microsoft.com/sudheesn/2017/05/17/patches-that-fix-the-vulnerability-for-ms17-010/) - A consolidated list of patches and associated KB.  Use these KB in a search at https://www.catalog.update.microsoft.com to find offline patches.
 
 [Download-Patches.PS1](/PS1/Download-Patches.ps1) - Bulk download all MS17-010 patches (still being updated to cover more patches)
