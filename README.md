@@ -15,6 +15,9 @@ Consider all scripts to have been lightly tested in only my environment so proce
 
 [How to enable and disable SMBv1, SMBv2, and SMBv3 in Windows and Windows Server](https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows) - From Microsoft (contains PowerShell scripts to disable/remove)
 
+Explanation and CAUTION: The 'magic' file is supposedly checked by PETYA in order to determine if it should run or not. Developers of malware often make use of these checks to see if they are in a malware analysis system, or to avoid infecting their own systems. This particular magic file is supposed to inoculate and prevent PETYA from running on systems.  However, there are conflicting reports on it's effectiveness on different Windows platforms in different configurations and should not be relied on as a fix. The only true fix is to patch your systems per Microsoft advice.
+
+Explanation and CAUTION: Please note that older control systems may rely on SMB1 communications, and disabling of SMB1 on live system may cause issues with communication that could result in unintended consequences.  Test all changes prior to deployment in control environments using a methodology that limits impacts to production systems.
 
 ### All things MS17-010
 
@@ -31,9 +34,11 @@ Consider all scripts to have been lightly tested in only my environment so proce
 
 ### Links to Tools/Utilities
 #### NMAP
-[NMap](https://nmap.org/download.html) for quick and dirty scan to look for vulnerable hosts.  USE WITH EXTREME CAUTION so as not to knock devices off the network.  
+[NMap](https://nmap.org/download.html) for quick and dirty scan to look for vulnerable hosts.  USE WITH EXTREME CAUTION so as not to knock devices off the network.  The command below will scan a subnet of your choice for port 445, and initiate a check to see if the system is vulnerable to the MS17-010 vulnerability.  This script is classified as a 'safe' check by the developer of the script, Paulino Calderon.
 
-Example nmap command line `nmap -p 445 --max-hostgroup 3 --open --script smb-vuln-ms17-010.nse X.X.X.X/X`
+Example nmap command line `nmap -p445 --script smb-vuln-ms17-010 --max-hostgroup 3 --open X.X.X.X/X`
+
+More information on the smb-vuln-ms17-010.nse from NMAP project: https://nmap.org/nsedoc/scripts/smb-vuln-ms17-010.html
 
 ### Relevant Reading - Petya
 https://www.binarydefense.com/petya-ransomware-without-fluff/
