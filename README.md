@@ -7,7 +7,9 @@ This is an attempt to collect scripts and quick go-bys for asset owners and inci
 
 ## Resources
 ### Scripts
-[Create-PetyaVaxFiles](/PS1/Create-PetyaVaxFiles.ps1) creates and verifies magic perfc files in c:\windows
+[Create-PetyaVaxFiles.PS1](/PS1/Create-PetyaVaxFiles.ps1) - Creates and verifies magic perfc files in c:\windows
+
+[Download-Patches.PS1](/PS1/Download-Patches.ps1) - Bulk download all MS17-010 patches
 
 [How to enable and disable SMBv1, SMBv2, and SMBv3 in Windows and Windows Server](https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows) - From Microsoft (contains PowerShell scripts to disable/remove)
 
