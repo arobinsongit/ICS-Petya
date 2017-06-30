@@ -12,10 +12,11 @@ This is an attempt to collect scripts and quick go-bys for asset owners and inci
 [How to enable and disable SMBv1, SMBv2, and SMBv3 in Windows and Windows Server](https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows) - From Microsoft (contains PowerShell scripts to disable/remove)
 
 
-### Links to Patches and Associated Scripts/Tools
-[Microsoft® Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=ms17-010) - Offline patches for MS17-010
+### All things MS17-010
 
-[Download-Patches.PS1](/PS1/Download-Patches.ps1) - Bulk download all MS17-010 patches
+[Patches That Fix the Vulnerability For MS17-010](https://blogs.technet.microsoft.com/sudheesn/2017/05/17/patches-that-fix-the-vulnerability-for-ms17-010/) - A consolidated list of patches and associated KB.  Use these KB in a search at https://www.catalog.update.microsoft.com to find offline patches.
+
+[Download-Patches.PS1](/PS1/Download-Patches.ps1) - Bulk download all MS17-010 patches (still being updated to cover more patches)
 
 [Description of the Windows Update Standalone Installer in Windows](https://support.microsoft.com/en-us/help/934307/description-of-the-windows-update-standalone-installer-in-windows) - With commandline switches for silent installs
 
