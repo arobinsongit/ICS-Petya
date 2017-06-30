@@ -5,9 +5,13 @@ Trying to get content out quickly so this won't be pretty.
 
 This is an attempt to collect scripts and quick go-bys for asset owners and incident responders in the Industrial Control Systems sector.
 
+Consider all scripts to have been lightly tested in only my environment so proceed with caution.  If you find mistakes or make improvements please contribute back as your are able.
+
 ## Resources
 ### Scripts
 [Create-PetyaVaxFiles.PS1](/PS1/Create-PetyaVaxFiles.ps1) - Creates and verifies magic perfc files in c:\windows
+
+[MS17-010-createperfc.bat](/BAT/MS17-010-createperfc.bat) - Quick and dirty batch file to create magic perfc files in c:\windows
 
 [How to enable and disable SMBv1, SMBv2, and SMBv3 in Windows and Windows Server](https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows) - From Microsoft (contains PowerShell scripts to disable/remove)
 
