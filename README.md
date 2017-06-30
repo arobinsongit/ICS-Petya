@@ -9,12 +9,15 @@ This is an attempt to collect scripts and quick go-bys for asset owners and inci
 ### Scripts
 [Create-PetyaVaxFiles](/PS1/Create-PetyaVaxFiles.ps1) creates and verifies magic perfc files in c:\windows
 
-[How to enable and disable SMBv1, SMBv2, and SMBv3 in Windows and Windows Server](https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows) - From Microsoft
+[How to enable and disable SMBv1, SMBv2, and SMBv3 in Windows and Windows Server](https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows) - From Microsoft (contains PowerShell scripts to disable/remove)
+
+[How to verify that MS17-010 is installed](https://support.microsoft.com/en-us/help/4023262/how-to-verify-that-ms17-010-is-installed) - From Microsoft (contains PowerShell scripts to verify install)
 
 ### Links to Patches
 [Microsoft® Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=ms17-010) - Offline patches for MS17-010
 
 ### Links to Tools/Utilities
+#### NMAP
 [NMap](https://nmap.org/download.html) for quick and dirty scan to look for vulnerable hosts.  USE WITH EXTREME CAUTION so as not to knock devices off the network.  
 
 Example nmap command line `nmap -sC -p 445 --max-hostgroup 3 --open --script smb-vuln-ms17-010.nse X.X.X.X/X`
