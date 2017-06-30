@@ -33,7 +33,7 @@ Consider all scripts to have been lightly tested in only my environment so proce
 #### NMAP
 [NMap](https://nmap.org/download.html) for quick and dirty scan to look for vulnerable hosts.  USE WITH EXTREME CAUTION so as not to knock devices off the network.  
 
-Example nmap command line `nmap -sC -p 445 --max-hostgroup 3 --open --script smb-vuln-ms17-010.nse X.X.X.X/X`
+Example nmap command line `nmap -p 445 --max-hostgroup 3 --open --script smb-vuln-ms17-010.nse X.X.X.X/X`
 
 ### Relevant Reading - Petya
 https://www.binarydefense.com/petya-ransomware-without-fluff/
